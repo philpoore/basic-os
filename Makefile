@@ -1,6 +1,6 @@
 
 
-all: make_image build burn_image
+all: clean make_image build burn_image
 
 
 make_image:
