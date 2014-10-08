@@ -2,7 +2,7 @@
 [ORG 0x7C00]				;Origin, tell the assembler that where the code will
 							;be in memory after it is been loaded
 
-MOV AL, 65
+MOV AL, 76
 CALL PrintCharacter
 JMP $ 						;Infinite loop, hang it here.
 
